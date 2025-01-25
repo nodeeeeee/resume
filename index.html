@@ -1,125 +1,98 @@
-<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://code.jquery.com https://unpkg.com https://d3js.org https://threejs.org https://cdn.plot.ly https://stackpath.bootstrapcdn.com https://maps.googleapis.com https://cdn.tailwindcss.com https://ajax.googleapis.com https://kit.fontawesome.com https://cdn.datatables.net https://maxcdn.bootstrapcdn.com https://code.highcharts.com https://tako-static-assets-production.s3.amazonaws.com https://www.youtube.com https://fonts.googleapis.com https://fonts.gstatic.com https://pfst.cf2.poecdn.net https://puc.poecdn.net https://i.imgur.com https://wikimedia.org https://*.icons8.com https://*.giphy.com https://picsum.photos https://images.unsplash.com; frame-src 'self' https://www.youtube.com https://trytako.com; child-src 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests; block-all-mixed-content;">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!--    <meta http-equiv="Content-Security-Policy"-->
+<!--          content="default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://code.jquery.com https://unpkg.com https://d3js.org https://threejs.org https://cdn.plot.ly https://stackpath.bootstrapcdn.com https://maps.googleapis.com https://cdn.tailwindcss.com https://ajax.googleapis.com https://kit.fontawesome.com https://cdn.datatables.net https://maxcdn.bootstrapcdn.com https://code.highcharts.com https://tako-static-assets-production.s3.amazonaws.com https://www.youtube.com https://fonts.googleapis.com https://fonts.gstatic.com https://pfst.cf2.poecdn.net https://puc.poecdn.net https://i.imgur.com https://wikimedia.org https://*.icons8.com https://*.giphy.com https://picsum.photos https://images.unsplash.com; frame-src 'self' https://www.youtube.com https://trytako.com; child-src 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests; block-all-mixed-content;">-->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/css/w3.css">
+    <link rel="stylesheet" href="static/css/styles.css">
     <title>Zhang Kai - Resume</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            color: #333;
-        }
-        
-        .header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        
-        .section {
-            margin-bottom: 20px;
-        }
-        
-        .section-title {
-            border-bottom: 2px solid #2c3e50;
-            color: #2c3e50;
-            padding-bottom: 5px;
-            margin-bottom: 10px;
-        }
-        
-        .contact-info {
-            text-align: center;
-            font-size: 0.9em;
-            margin-bottom: 20px;
-        }
-        
-        ul {
-            margin: 0;
-            padding-left: 20px;
-        }
-        
-        li {
-            margin-bottom: 5px;
-        }
-        
-        @media print {
-            body {
-                padding: 0.5in;
-            }
-        }
-        
-        @media (max-width: 600px) {
-            body {
-                padding: 10px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="header">
+  </head>
+  
+  <body style="padding: 1px">
+    <div id="sidebar" class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%;right:0">
+      <div id="photo" class="bar-item" style="padding-top:20px">
+        <img src="photo.jpg" alt="photo" width="213" height="300">
+      </div>
+      <div id="name">
         <h1>ZHANG KAI</h1>
+      </div>
+      <div style="padding-bottom: 50px">
+        zhangkai.nodeee@gmail.com
+      </div>
+      <div>
+        <a href="https://github.com/nodeeeeee">GitHub</a>
+        <div style="white-space: pre;"> | </div>
+        <a href="https://www.linkedin.com/in/kai-zhang-043419346/">LinkedIn</a>
+      </div>
     </div>
     
-    <div class="contact-info">
-        Based in Singapore | zhangkai.nodeee@gmail.com<br>
-        <a href="https://github.com/nodeeeeee">GitHub Portfolio</a> |
-        <a href="https://www.linkedin.com/in/kai-zhang-043419346/">LinkedIn Profile</a>
-    </div>
-
-    <div class="section">
+    
+    
+    
+    <div style="margin-right:26%;padding-left:5%">
+      
+      
+      <div class="section">
         <h2 class="section-title">EDUCATION</h2>
-        <p><strong>Bachelor of Science in Computer Science</strong><br>
-        National University of Singapore (NUS)<br>
-        Expected Graduation: May 2028 | Current GPA: [X.XX/5.00]</p>
+        <p><strong>Bachelor of Computer Science</strong>
+          in National University of Singapore (NUS)
+          <br> Expected Graduation: May 2028 | Current GPA: 4.70/5.00</p>
         
-        <strong>Core Academic Coursework:</strong>
+        <strong>NUS courses taken:</strong>
         <ul>
-            <li>Advanced Computing Fundamentals: Discrete Structures (CS1231S), Programming Methodology (CS1101S)</li>
-            <li>Mathematical Foundations: Calculus for Computing (MA1521), Linear Algebra (MA1522), Introduction to Statistics (ST1131)</li>
-            <li>Current Studies: Data Structures &amp; Algorithms (CS2040S), Computer Organisation (CS2100), Advanced Programming Methodology (CS2030S)</li>
+          <li>Computing Fundamentals: Discrete Structures (CS1231S), Programming Methodology (CS1101S)</li>
+          <li>Mathematical Foundations: Calculus for Computing (MA1521), Linear Algebra for Computing (MA1522), Introduction to
+            Statistics (ST1131)
+          </li>
+          <li>Current Studies: Data Structures &amp; Algorithms (CS2040S), Computer Organisation (CS2100), Advanced
+            Programming Methodology (CS2030S)
+          </li>
         </ul>
-    </div>
-
-    <div class="section">
+        <strong>web courses taken:</strong>
+        <ul>
+          <li>Harvard CS50w (Web Programming): The course focuses on Python, JavaScript, and
+            modern web frameworks
+          </li>
+          <li>UCB CS61A: An introductory to python, functional programming and OOP.
+          </li>
+          <li>MIT 14.01: Microeconomics</li>
+          <li>MIT 14.02 (in progress): Macroeconomics</li>
+          <li>UCB CS61C (in progress): Computer Architecture</li>
+        </ul>
+      </div>
+      
+      <div class="section">
         <h2 class="section-title">TECHNICAL PROFICIENCIES</h2>
         <ul>
-            <li><strong>Programming Languages:</strong> Java (Primary), Python, C, JavaScript, R</li>
-            <li><strong>Web Development Stack:</strong> HTML5, CSS3, Django Framework</li>
-            <li><strong>Development Environment:</strong> Git Version Control, Linux Operating System, Vim Editor</li>
-            <li><strong>Professional Communication:</strong> English (Professional Working Proficiency), Mandarin Chinese (Native)</li>
+          <li><strong>Programming Languages:</strong> Java (Primary), Python, C, JavaScript, R</li>
+          <li><strong>Web Development Stack:</strong> HTML5, CSS3, Django Framework (python + javascript)</li>
+          <li><strong>Development Environment:</strong> Git Version Control, Linux Operating System, Vim Editor, Jetbrain</li>
+          <li><strong>Data Structure and Algorithms: </strong>second prize in NOIP (National Olympics of Information in Provinces), can handle basic and intermediate algorithm problems.</li>
+          <li><strong>Communication Skills:</strong> English (Professional Working Proficiency), Mandarin Chinese (Native)
+          </li>
         </ul>
-    </div>
-
-    <div class="section">
-        <h2 class="section-title">PROFESSIONAL DEVELOPMENT</h2>
-        <ul>
-            <li>Completed Harvard University's CS50W Web Programming Specialization, focusing on Python, JavaScript, and modern web frameworks</li>
-            <li>Mastered foundational computer science concepts through Berkeley's CS61A program, emphasizing program composition and abstraction</li>
-            <li>Enhanced analytical capabilities through MIT's Economics coursework (14.01)</li>
-            <li>Currently advancing technical expertise through Berkeley's CS61C (Computer Architecture) and MIT's Advanced Economics (14.02)</li>
-        </ul>
-    </div>
-
-    <div class="section">
+      </div>
+      
+      <div class="section">
         <h2 class="section-title">TECHNICAL PROJECTS</h2>
-        <p><strong>Travel Itinerary Management System</strong></p>
+        <p><strong>Travel Itinerary Management System (run locally)</strong></p>
+      </div>
+      
+      <div class="section">
+        <h2 class="section-title">LOOKING FOR INTERNSHIP</h2>
         <ul>
-            <li>Architected and implemented a full-stack travel planning application utilizing Django framework and PostgreSQL database</li>
-            <li>Engineered secure user authentication system and implemented RESTful API endpoints</li>
-            <li>Designed and developed responsive user interface adhering to modern web development standards</li>
-            <li>Implemented automated testing procedures and continuous integration workflows</li>
+          <li>Seeking an internship position to acquire hands-on experience in enterprise-level software development
+            methodologies
+          </li>
+          <li>Can work in Singapore or Shanghai, I would prefer working in office to remote working
+          </li>
+          <li>I am willing to learn development skills necessary for the intern in my free time.
+          </li>
         </ul>
+      </div>
     </div>
-
-    <div class="section">
-        <h2 class="section-title">PROFESSIONAL OBJECTIVES</h2>
-        <ul>
-            <li>Seeking an internship position to acquire hands-on experience in enterprise-level software development methodologies</li>
-            <li>Particular interest in mastering industry-standard CI/CD pipelines, scalable architecture design, and security best practices</li>
-            <li>Committed to contributing meaningful code while developing expertise in professional software engineering workflows</li>
-        </ul>
-    </div>
-
-
-</body></html>
+  
+  </body>
+</html>
